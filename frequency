@@ -1,0 +1,14 @@
+# FREQUENCY OF A STRING-- in REVERSE
+
+def frequency(str1):
+    revstr1=str1[::-1]               #reverse of string 
+    freq={}
+    for i in revstr1:
+        if i in freq:
+            freq[i]+=1
+        else:
+            freq[i]=1
+    return freq
+
+str1=mississippi
+print(frequency(str1))
