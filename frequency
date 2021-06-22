@@ -1,6 +1,6 @@
 # FREQUENCY OF A STRING-- in REVERSE
 
-def most_frequent(str1):
+def most_frequent(str1):             #Function definition
     revstr1=str1[::-1]               #reverse of string 
     freq={}
     for i in revstr1:
